@@ -1,9 +1,10 @@
 # Bachelor Thesis — Cognitive RAG: Bloom's Taxonomy & DSRP Plugins for ComoRAG
 
+## Overview
+
+This project contains my original [thesis defense presentation](presentation.pdf).
 *Development of RAG Architecture Based on Bloom's Taxonomy Principles for Context-Sensitive
 Information Retrieval* — Danial Baitakov, Astana IT University, 2026.
-
-## Overview
 
 The project extends [ComoRAG](https://github.com/EternityJune25/ComoRAG), a
 cognitive-inspired memory-organized RAG system
@@ -19,18 +20,13 @@ cognitive-inspired memory-organized RAG system
 
 On DetectiveQA the enhanced system improves accuracy from 18.0% to 24.0% (+6 pp, 50
 samples; GPT-4.1-nano, text-embedding-3-large).
+The full thesis text is available upon request.
 
 ## Datasets used
 
 - [NarrativeQA](https://arxiv.org/abs/1712.07040) — QA over full-length books
 - [DetectiveQA](https://arxiv.org/abs/2409.02465) — long-context reasoning over detective novels
 - [InfiniteBench](https://arxiv.org/abs/2402.13718) — long-context benchmark (En.MC, En.QA tasks)
-
-## Contents
-
-This repository hosts the thesis defense presentation:
-[`presentation.pdf`](presentation.pdf) (15 slides — architecture, plugin design,
-evaluation, limitations, and future work).
 
 ## License
 
