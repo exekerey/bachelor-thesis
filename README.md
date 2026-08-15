@@ -1,5 +1,3 @@
-# Bachelor Thesis — Cognitive RAG: Bloom's Taxonomy & DSRP Plugins for ComoRAG
-
 ## Overview
 
 This project contains my original [thesis defense presentation](presentation.pdf).
