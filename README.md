@@ -1,3 +1,10 @@
+## Note
+
+I'm looking to continue this research in a graduate lab working on
+retrieval-augmented generation and long-context reasoning — if the work
+is relevant to yours, I'd be happy to share the full thesis and discuss
+it: [danialxbaitakov@gmail.com](mailto:danialxbaitakov@gmail.com)
+
 ## Overview
 
 This project contains my original [thesis defense presentation](presentation.pdf).
@@ -29,10 +36,3 @@ samples; GPT-4.1-nano, text-embedding-3-large).
 ## License
 
 [MIT](LICENSE). Built on top of [ComoRAG](https://github.com/EternityJune25/ComoRAG) (MIT).
-
-## Afterword
-
-I'm looking to continue this research in a graduate lab working on
-retrieval-augmented generation and long-context reasoning — if the work
-is relevant to yours, I'd be happy to share the full thesis and discuss
-it: [danialxbaitakov@gmail.com](mailto:danialxbaitakov@gmail.com)
