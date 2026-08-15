@@ -10,13 +10,14 @@ The project extends [ComoRAG](https://github.com/EternityJune25/ComoRAG), a
 cognitive-inspired memory-organized RAG system
 ([paper](https://arxiv.org/abs/2508.10419)), with two toggleable plugins:
 
-- **Bloom Taxonomy Estimator** — classifies each query into one of six cognitive levels
+- **Bloom Taxonomy Estimator** — classifies each query into one of the six cognitive levels
+  of [Bloom's Taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy)
   (Remember → Create) and scales retrieval parameters accordingly: up to 3× top-k and 5
   metacognitive loop iterations for high-complexity queries, instead of fixed parameters
   for every query.
-- **DSRP Decomposer** — during indexing, annotates each memory chunk with four cognitive
-  dimensions (Distinctions, Systems, Relationships, Perspectives), creating additional
-  retrieval pathways for multi-hop questions.
+- **DSRP Decomposer** — during indexing, annotates each memory chunk with the four patterns
+  of [DSRP](https://en.wikipedia.org/wiki/DSRP) (Distinctions, Systems, Relationships,
+  Perspectives), creating additional retrieval pathways for multi-hop questions.
 
 On DetectiveQA the enhanced system improves accuracy from 18.0% to 24.0% (+6 pp, 50
 samples; GPT-4.1-nano, text-embedding-3-large).
